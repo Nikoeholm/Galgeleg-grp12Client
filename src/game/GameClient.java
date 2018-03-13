@@ -18,7 +18,6 @@ import java.rmi.RMISecurityManager;
 public class GameClient {
     // java -Djava.rmi.server.hostname=130.225.170.246 -cp Galgeleg-grp21.jar game.GameServer
 
-    //private static final String REMOTEURL = "rmi://localhost/gameCalls";
     private static final String REMOTEURL = "rmi://130.225.170.246/gameCalls";
     private static GameI gameCalls;
     private static String userName, password;
