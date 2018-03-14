@@ -27,7 +27,7 @@ public class GameClient {
         System.out.println("\n\n--- Command line client ---\n\n");
         Scanner sc = new Scanner(System.in);
         login();
-        System.out.println("HEJ");
+        
         try{
         gameCalls.registerPlayer(userName);
         } catch (IllegalArgumentException alreadyRegistred) {
